@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient( purple,white);
+    background: url("/img/BG1.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav h1{
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+}
+
+.con{
+    display: flex;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    height: 70vh;
+    overflow-y: scroll;
+    padding: 20px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.contain{
+    width: 20%;
+    margin: auto;
+    height: 70vh;
+    overflow-y: scroll;
+    padding: 20px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.message{
+    background-color: rgb(207, 147, 210);
+    width: auto;
+    margin: 15px 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 16px;
+    background: transparent;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+#sendContainer{
+    float: right;
+    display: block;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#messageInp{
+    width: 80%;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 30px;
+    outline: none;
+    font-size: 18px;
+}
+
+.btn{
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 30px;
+    width: 15%;
+}

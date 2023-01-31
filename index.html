@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>ChatKaro - Realtime Chat Application Using Nodejs SocketIO</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navBar">
+        <img class="logo" src="img/Chatlogo.png" alt="" srcset="">
+        <h1>Welcome to Chat Karo</h1>
+    </nav>
+    <div class="con">
+        <div class="contain">
+        </div>
+        <div class="container">
+        </div>
+    </div>
+    <div class="send">
+        <form action="send-message" id="sendContainer">
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
